@@ -1,5 +1,12 @@
 ﻿{
-  "version": "1.0.0-*",
+  "version": "1.0.0-beta1*",
+  "title": "CustomsTagHelpers",
+  "description": "A collection of Tag Helper",
+  "authors": [ "Abdallah Hacid", "Mahesh Sabnis" ],
+  "tags": [ "ASPNET5", "MVC6", "EF7", "TagHelper" ],
+  "projectUrl": "https://github.com/abhacid/CustomsTagHelpers",
+  "licenseUrl": "https://github.com/abhacid/CustomsTagHelpers/LICENSE.txt",
+
   "compilationOptions": {
     "emitEntryPoint": true
   },
