@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{92747D77-F053-4805-8CDA-11A4155B1DCA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8034317D-8566-4DC9-A1D6-7C0224ADD36D}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "CustomsTagHelpers", "src\CustomsTagHelpers\CustomsTagHelpers.xproj", "{DF7D07B5-64A2-4049-85CA-76C8EBADE8F6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DF7D07B5-64A2-4049-85CA-76C8EBADE8F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF7D07B5-64A2-4049-85CA-76C8EBADE8F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF7D07B5-64A2-4049-85CA-76C8EBADE8F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF7D07B5-64A2-4049-85CA-76C8EBADE8F6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DF7D07B5-64A2-4049-85CA-76C8EBADE8F6} = {92747D77-F053-4805-8CDA-11A4155B1DCA}
+	EndGlobalSection
+EndGlobal
