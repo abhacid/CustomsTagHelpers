@@ -6,8 +6,33 @@
       }
 </style>
 
- 
+ <h1> Exemples de Tag Helpers</h1>
 
+<p>
+    Ce projet de regroupement de Tag Helper à débuté suite à la lecture de l'article
+    <a href="http://www.dotnetcurry.com/aspnet-mvc/1266/using-tag-helpers-aspnetmvc-6-core-1">Creating Tag Helpers in ASP.NET MVC 6 / ASP.NET Core 1.0</a>
+    <span style="color:darkgrey; font-size:small">([2016-03-24] by <a style="font-style:italic; color:lightcoral" href="http://www.dotnetcurry.com/author/mahesh-sabnis">Mahesh Sabnis</a></span>).
+    C'est en effet une des nouvelles fonctionnalités les plus intéressantes de ASP.NET, elle permet de construire une page Html de façon cohérente et claire tout en permettant aux programmeurs de créer des snippets personnalisés pour simplifier la création des pages web.
+</p>
+
+
+<hr />
+<h2>TagHelper Markdown</h2>
+
+<markdown>
+
+### Références internet sur les Tag Helper
+
+---
+### 2016
+---
+
+- [Introduction to Tag Helpers](https://docs.asp.net/en/latest/mvc/views/tag-helpers/intro.html)
+   
+
+</markdown>
+<hr />
+<h2>TagHelper Table</h2>
 <table generate-rows="@Model.Count()" source-model="@Model">
 
 </table>

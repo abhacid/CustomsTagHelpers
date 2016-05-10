@@ -1,5 +1,6 @@
 ﻿{
-  "version": "1.0.0-beta1*",
+  "userSecretsId": "aspnet5-CustomsTagHelpers-da1a8352-5c72-4f3b-a8c5-16995ae21d73",
+  "version": "1.0.0-beta1",
   "title": "CustomsTagHelpers",
   "description": "A collection of Tag Helper",
   "authors": [ "Abdallah Hacid", "Mahesh Sabnis" ],
@@ -20,7 +21,13 @@
     "Microsoft.AspNet.Mvc.Razor": "6.0.0-rc1-final",
     "Microsoft.AspNet.Mvc.TagHelpers": "6.0.0-rc1-final",
     "Microsoft.AspNet.Tooling.Razor": "1.0.0-rc1-final",
-    "Microsoft.Extensions.CodeGenerators.Mvc": "1.0.0-rc1-final"
+    "Microsoft.Extensions.CodeGenerators.Mvc": "1.0.0-rc1-final",
+    "Microsoft.Extensions.Configuration.UserSecrets": "1.0.0-rc1-final",
+
+    "Microsoft.Framework.Runtime": "1.0.0-beta6",
+
+    "TagHelperSamples.Markdown": "1.0.1.2",
+    "TagHelperSamples.Bootstrap": "1.0.1.2"
   },
 
   "commands": {
@@ -34,10 +41,19 @@
 
   "exclude": [
     "wwwroot",
-    "node_modules"
+    "node_modules",
+    "bower_components"
   ],
+
   "publishExclude": [
+    "node_modules",
+    "bower_components",
+    "**.xproj",
     "**.user",
     "**.vspscc"
-  ]
+  ],
+
+  "scripts": {
+    "prepublish": [ "npm install", "bower install", "gulp clean", "gulp min" ]
+  }
 }

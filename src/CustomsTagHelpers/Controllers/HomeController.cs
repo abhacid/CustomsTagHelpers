@@ -10,6 +10,7 @@ namespace CustomsTagHelpers.Controllers
         // GET: /<controller>/
         public IActionResult Index()
         {
+            ViewData["Title"] = "";
             var products = new Products(); 
             return View(products);
         }
